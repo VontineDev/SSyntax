@@ -29,7 +29,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImplementationOfVector2", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoinFlip_MonteCarlo", "..\CoinFlip_MonteCarlo\CoinFlip_MonteCarlo.csproj", "{674EF130-EF8B-4B26-A7E4-23826811C37B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EchoClient", "..\EchoClient\EchoClient.csproj", "{0D1E1F73-E4A4-486C-B19D-16F14335B298}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EchoClient", "..\EchoClient\EchoClient.csproj", "{0D1E1F73-E4A4-486C-B19D-16F14335B298}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadPractice", "..\ThreadPractice\ThreadPractice.csproj", "{097B062F-6D47-4B22-B68B-E163999FDE9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadPractice2_Locking", "..\ThreadPractice2_Locking\ThreadPractice2_Locking.csproj", "{AB8E4489-AA76-41A0-A826-B2A3D1A9388A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadPractice3_DeadLocking", "..\ThreadPractice3_DeadLocking\ThreadPractice3_DeadLocking.csproj", "{7FBD0EE5-292D-4FA2-995D-7A321D9DE1A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +99,18 @@ Global
 		{0D1E1F73-E4A4-486C-B19D-16F14335B298}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D1E1F73-E4A4-486C-B19D-16F14335B298}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D1E1F73-E4A4-486C-B19D-16F14335B298}.Release|Any CPU.Build.0 = Release|Any CPU
+		{097B062F-6D47-4B22-B68B-E163999FDE9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{097B062F-6D47-4B22-B68B-E163999FDE9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{097B062F-6D47-4B22-B68B-E163999FDE9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{097B062F-6D47-4B22-B68B-E163999FDE9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB8E4489-AA76-41A0-A826-B2A3D1A9388A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB8E4489-AA76-41A0-A826-B2A3D1A9388A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB8E4489-AA76-41A0-A826-B2A3D1A9388A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB8E4489-AA76-41A0-A826-B2A3D1A9388A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FBD0EE5-292D-4FA2-995D-7A321D9DE1A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FBD0EE5-292D-4FA2-995D-7A321D9DE1A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FBD0EE5-292D-4FA2-995D-7A321D9DE1A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FBD0EE5-292D-4FA2-995D-7A321D9DE1A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
